@@ -1,0 +1,46 @@
+:root {
+  --base-size: 14px;
+  --type-scale: 1.2;
+  --h3: calc(var(--base-size) * var(--type-scale));
+  --h2: calc(var(--h3) * var(--type-scale));
+  --h1: calc(var(--h2) * var(--type-scale));
+  --small-text: calc(var(--base-size) / var(--type-scale));
+}
+
+/* Fonts */
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 1.65;
+}
+
+/* Size */
+
+h1 {
+  font-size: var(--h1);
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+.small-text {
+  font-size: var(--small-text);
+}
+
+p {
+  font-size: var(--base-size);
+}
+
+/* Main section */
+input[type='search'] {
+  font-size: var(--h3);
+}

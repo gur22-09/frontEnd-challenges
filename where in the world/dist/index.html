@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,600,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.78032849.css">
+    <link rel="stylesheet" href="/layout.20db2a50.css">
+    <link rel="stylesheet" href="/type.9f03434a.css">
+    <script src="https://kit.fontawesome.com/db92f9c8a8.js" crossorigin="anonymous"></script>
+    <title>Rest countries api</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo"><a href="/index.html">Where in the world?</a></h1>
+        <button id="header__dark-mode-toggle" class="header__dark-mode-toggle" aria-label="toggle dark mode">
+          <i class="fas fa-moon"></i> Dark Mode
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="filters">
+          <div class="container">
+            <div class="box">
+              <span class="icon"><i class="fa fa-search"></i></span>
+              <input type="search" id="search" class="search" placeholder="Search for a country..." aria-labelledby="country name">
+            </div>
+
+            <div class="select-box">
+              <div class="options-container">
+                <div class="option">
+                  <input type="radio" name="region-category" class="radio" id="africa">
+                  <label for="africa">Africa</label>
+                </div>
+                <div class="option">
+                  <input type="radio" name="region-category" class="radio" id="america">
+                  <label for="america">America</label>
+                </div>
+                <div class="option">
+                  <input type="radio" name="region-category" class="radio" id="asia">
+                  <label for="asia">Asia</label>
+                </div>
+                <div class="option">
+                  <input type="radio" name="region-category" class="radio" id="europe">
+                  <label for="europe">Europe</label>
+                </div>
+                <div class="option">
+                  <input type="radio" name="region-category" class="radio" id="oceania">
+                  <label for="oceania">Oceania</label>
+                </div>
+              </div>
+              <div class="selected">
+                <div>Filter by Region</div>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <!-- <select id="region" name="region">
+                <option value="0">Filter by Region</option>
+                <option value="1">Africa</option>
+                <option value="2">America</option>
+                <option value="3">Asia</option>
+                <option value="4">Europe</option>
+                <option value="5">Oceania</option>
+              </select> -->
+            </div>
+          </div>
+        </section>
+        <section class="flags"></section>
+      </div>
+    </main>
+    <!-- <script src="../dist/js/darkmode.js"></script> -->
+    <script src="/main.1f19ae8e.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,600,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/type.css" />
+    <script
+      src="https://kit.fontawesome.com/db92f9c8a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Rest countries api - country</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo"><a href="./index.html">Where in the world?</a></h1>
+        <button
+          id="header__dark-mode-toggle"
+          class="header__dark-mode-toggle"
+          aria-label="toggle dark mode"
+        >
+          <i class="fas fa-moon"></i> Dark Mode
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section>
+          <a href="index.html" class="back-button"
+            ><i class="fas fa-arrow-left"></i> Back</a
+          >
+        </section>
+        <section class="country"></section>
+      </div>
+    </main>
+    <script src="./main-flag.js" type="module"></script>
+  </body>
+</html>
